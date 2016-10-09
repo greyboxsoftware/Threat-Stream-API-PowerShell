@@ -10,9 +10,9 @@ The following script will allow you to query the Threat Stream (Anamoli) API wit
 
 Now that we have all the prerequsites figured out we can then open up PowerShell as an Administrator
 
-  To run the script all you have to do is type in 
-  c:\temp\ThreatIntel.ps1
-  Then follow the prompts
+    To run the script all you have to do is type in 
+    c:\temp\ThreatIntel.ps1
+    Then follow the prompts
   
 The script will ask you for your username (Threat Stream email), Threat Stream API key, file path where the IP address are (i.e. c:\temp\ipaddr.txt), and what you want your output file named i.e. ThreatIntel (file will save as c:\temp\TSThreatIntel.csv)
 
@@ -20,7 +20,7 @@ OR
 
 If you want a nice oneliner you could do the following from a PowerShell Prompt 
 
-  c:\temp\ThreatIntel.ps1 -AnamoliUser email@something.com -AnamoliAPIkey Your-API-Key -FilePath c:\temp\ipaddr.txt -OutputFile coolName
+    c:\temp\ThreatIntel.ps1 -AnamoliUser email@something.com -AnamoliAPIkey Your-API-Key -FilePath c:\temp\ipaddr.txt -OutputFile coolName
   
 
  
