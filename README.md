@@ -8,6 +8,8 @@ The following script will allow you to query the Threat Stream (Anamoli) API wit
 
 4th. Download this scirpt and save it to you c:\ drive in our case we will save it to the temp drive (c:\temp\ThreatIntel.ps1)
 
+Currently this script only supports IP addresses. 
+
 Now that we have all the prerequsites figured out we can then open up PowerShell as an Administrator
 
     To run the script all you have to do is type in 
